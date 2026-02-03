@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Affiliate Link Hub</title>
+  <meta name="description" content="Top tools, products, and services I recommend. Earn money through trusted affiliate links." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #020617;
+      --card: #020617;
+      --primary: #22c55e;
+      --secondary: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.7rem;
+    }
+
+    header p {
+      color: var(--muted);
+      max-width: 650px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .cta {
+      margin-top: 1.5rem;
+    }
+
+    .cta a {
+      background: var(--primary);
+      color: #020617;
+      padding: 0.7rem 1.3rem;
+      border-radius: 0.6rem;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0 0.3rem;
+      display: inline-block;
+    }
+
+    .cta a.secondary {
+      background: var(--secondary);
+    }
+
+    main {
+      max-width: 1150px;
+      margin: auto;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: rgba(2, 6, 23, 0.95);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 45px rgba(34, 197, 94, 0.2);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--primary);
+      color: #020617;
+      padding: 0.2rem 0.6rem;
+      border-radius: 0.4rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      width: fit-content;
+    }
+
+    .card h3 {
+      margin-bottom: 0.6rem;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.5;
+      flex-grow: 1;
+    }
+
+    .card a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: var(--primary);
+      color: #020617;
+      padding: 0.6rem 1rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .card a:hover {
+      background: #16a34a;
+      transform: scale(1.03);
+    }
+
+    .tips {
+      margin: 4rem auto 0;
+      max-width: 800px;
+      background: rgba(2,6,23,0.8);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .tips h2 {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .tips ul {
+      list-style: none;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .tips li::before {
+      content: "✓ ";
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 2.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Affiliate Link Hub</h1>
+    <p>
+      I personally recommend these tools and services to help you earn, grow, and succeed online.
+      Some links below are affiliate links, which means I may earn a commission at no extra cost to you.
+    </p>
+
+    <div class="cta">
+      <a href="#offers">View Top Offers</a>
+      <a href="#tips" class="secondary">How I Earn</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <h2 id="offers" class="section-title">🔥 Recommended Money-Making Offers</h2>
+
+    <section class="grid">
+
+      <!-- Offer 1 -->
+      <div class="card">
+        <span class="badge">High Paying</span>
+        <h3>Online Course Platform</h3>
+        <p>Learn high-income skills like coding, digital marketing, and AI tools.</p>
+        <a href="https://YOUR-AFFILIATE-LINK-1" target="_blank">Get Started</a>
+      </div>
+
+      <!-- Offer 2 -->
+      <div class="card">
+        <span class="badge">Beginner Friendly</span>
+        <h3>Freelancing Website</h3>
+        <p>Find clients and start earning online with no upfront investment.</p>
+        <a href="https://YOUR-AFFILIATE-LINK-2" target="_blank">Join Free</a>
+      </div>
+
+      <!-- Offer 3 -->
+      <div class="card">
+        <span class="badge">Trending</span>
+        <h3>AI Productivity Tool</h3>
+        <p>Create content, ads, and videos faster using AI software.</p>
+        <a href="https://YOUR-AFFILIATE-LINK-3" target="_blank">Try Now</a>
+      </div>
+
+      <!-- Offer 4 -->
+      <div class="card">
+        <span class="badge">Best Value</span>
+        <h3>Website Hosting</h3>
+        <p>Launch blogs, funnels, and stores to promote your links.</p>
+        <a href="https://YOUR-AFFILIATE-LINK-4" target="_blank">Get Hosting</a>
+      </div>
+
+      <!-- Offer 5 -->
+      <div class="card">
+        <span class="badge">Passive Income</span>
+        <h3>Investment App</h3>
+        <p>Begin investing and earning rewards with beginner tools.</p>
+        <a href="https://YOUR-AFFILIATE-LINK-5" target="_blank">Sign Up</a>
+      </div>
+
+      <!-- Offer 6 -->
+      <div class="card">
+        <span class="badge">E-Commerce</span>
+        <h3>Online Store Builder</h3>
+        <p>Create your own store and earn through dropshipping.</p>
+        <a href="https://YOUR-AFFILIATE-LINK-6" target="_blank">Open Store</a>
+      </div>
+
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="tips">
+      <h2>💡 How to Make Money With This Page</h2>
+
+      <ul>
+        <li>Join trusted affiliate programs (Amazon, ClickBank, ShareASale, etc.)</li>
+        <li>Replace all "YOUR-AFFILIATE-LINK" URLs with your real links</li>
+        <li>Share this page on social media and in your bio</li>
+        <li>Create short videos and tutorials that point here</li>
+        <li>Track which offers convert best and focus on them</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 My Affiliate Hub • Some links are affiliate links</p>
+    <p>
+      <a href="#">Privacy Policy</a> • <a href="#">Disclaimer</a>
+    </p>
+  </footer>
+
+</body>
+</html>
